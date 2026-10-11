@@ -1,0 +1,62 @@
+/* CSS Positioning: Static position */
+.cont { height: 1500px; padding: 20px;}
+
+/* CSS selector: Universal selector and CSS Fonts*/
+* {font-family: Arial, Helvetica, sans-serif;
+    text-align: center;}
+
+/* Coloring in CSS and CSS Box-Model */
+#nav { position: sticky;
+    background-color: #0755ba;
+    color: white;
+   padding-top: 1px;
+    padding-bottom: 20px;}
+
+a:hover {
+  text-decoration: underline;}
+
+a {color: #fff;
+    padding: 7px;  
+    text-decoration: none;}
+
+/* Image */
+img {width: 300px;}
+
+/* Table, Semantic HTML Tags, CSS Selector: class ,and CSS Box-Model*/
+.skill-table { position:relative; 
+    left: 500px;
+    border-collapse: collapse;}
+
+th{ text-align: center;
+    border: 3px solid #0755ba;
+    padding: 10px 80px;
+    background-color: #0755ba;
+    color: white;}
+
+td{border: 3px solid #0755ba;
+    padding: 10px 80px;}
+
+.projects-list {border: 1px solid;
+    margin: 10px;
+    background-color:rgb(240, 245, 247);
+    padding: 10px;} 
+
+table{position:relative;
+    left:400px ;
+    border-collapse: collapse;}
+
+/* HTML Form and its Elements */
+input{padding: 5px 70px;
+  border: 1px solid grey;}
+
+button {background-color: #0a6ad1;
+    color: white;
+    padding: 5px 60px;}
+
+/* CSS Positioning: fixed position */
+#fixed {position: fixed;
+    bottom: 20px;
+    right: 50px;
+    color: white;
+    background-color: #0755ba; 
+    padding: 7px 30px;}
